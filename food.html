@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | GreenBite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main>
+        <div id="navbar-placeholder"></div>
+
+        <div class="container py-5">
+            <h1 class="text-center mb-5">Our Menu</h1>
+
+            <!-- Starters -->
+            <div class="menu-section">
+                <h2 class="mb-4">Starters</h2>
+                <div class="menu-item">
+                    <div>
+                        <h5 class="item-name">Tomato Soup</h5>
+                        <p>Fresh tomatoes blended with herbs and spices.</p>
+                    </div>
+                    <div class="price">5.99€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h5 class="item-name">Bruschetta</h5>
+                        <p>Grilled bread topped with diced tomatoes, garlic, and basil.</p>
+                    </div>
+                    <div class="price">6.49€</div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-section">
+                <h2 class="mb-4">Main Courses</h2>
+                <div class="menu-item">
+                    <div>
+                        <h5 class="item-name">Grilled Salmon</h5>
+                        <p>Served with lemon butter sauce and steamed vegetables.</p>
+                    </div>
+                    <div class="price">14.99€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h5 class="item-name">Spaghetti Bolognese</h5>
+                        <p>Classic Italian pasta with beef and tomato sauce.</p>
+                    </div>
+                    <div class="price">12.99€</div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-section">
+                <h2 class="mb-4">Desserts</h2>
+                <div class="menu-item">
+                    <div>
+                        <h5 class="item-name">Tiramisu</h5>
+                        <p>Italian coffee-flavored dessert layered with mascarpone cream.</p>
+                    </div>
+                    <div class="price">6.99€</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <h5 class="item-name">Chocolate Lava Cake</h5>
+                        <p>Warm chocolate cake with a gooey center and vanilla ice cream.</p>
+                    </div>
+                    <div class="price">7.49€</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer mt-5">
+        <p>&copy; 2025 Serve and Dine. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        fetch("/navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+    </script>
+</body>

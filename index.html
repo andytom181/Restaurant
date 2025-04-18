@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | GreenBite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">Serve and Dine</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#welcome">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#food">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#beverages">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/assets/events.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/assets/events-music/">Live-Music</a></li>
+                                <li><a class="dropdown-item" href="#">LIVE Sport Events</a></li>
+                                <li><a class="dropdown-item" href="#">Mothers club</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--
+        <section class="tophero">
+            <h1>Welcome</h1>
+        </section>
+        <section class="hero" id="home">
+            <h1>Welcome to Serve and Dine</h1>
+        </section>
+    -->
+        <div class="container col-xxl-8 px-4 py-5 " id="welcome">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="/image/logo.jpeg" class="d-block mx-lg-auto img-fluid" alt="Serve and Dine Logo"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to Serve and Dine
+                    </h1>
+                    <p class="lead">A few words about the restaurant - something like an intro</p>
+                    <!--   <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>  -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container col-xxl-8 px-4 py-5" id="food">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Food
+                    </h1>
+                    <p class="lead">Let us have a short description of the type of food that will be served.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button> -->
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4" id="foodMenu">To the
+                            Menu</button>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="/image/logo.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                        height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <div class="container col-xxl-8 px-4 py-5 " id="beverages">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="/image/logo.jpeg" class="d-block mx-lg-auto img-fluid" alt="Serve and Dine Logo"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Beverages
+                    </h1>
+                    <p class="lead">Let us have a short description of the type of food that will be served.</p>
+                    <!--     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>  -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer mt-5">
+        <p>&copy; 2025 Serve and Dine. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events | GreenBite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">GreenBite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="food.html">Food</a></li>
+                    <li class="nav-item"><a class="nav-link" href="drinks.html">Drinks</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="events-music.html">Live Music Nights</a></li>
+                            <li><a class="dropdown-item" href="events-dinner.html">Themed Dinners</a></li>
+                            <li><a class="dropdown-item" href="events-party.html">Private Parties</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 mb-5">
+        <h1 class="mb-4 text-center">Our Events</h1>
+
+        <!-- Event Category: Live Music Nights -->
+        <section class="mb-5">
+            <h2 class="mb-3">Live Music Nights</h2>
+            <div id="musicCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/seed/music1/400/200" class="d-block w-100" alt="Live Music 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/seed/music2/400/200" class="d-block w-100" alt="Live Music 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/seed/music3/400/200" class="d-block w-100" alt="Live Music 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#musicCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#musicCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <p>Every weekend, GreenBite transforms into a stage for amazing local and international talent. Enjoy your
+                favorite meals while listening to jazz, acoustic, rock, and more!</p>
+        </section>
+
+        <!-- Event Category: Themed Dinners -->
+        <section class="mb-5">
+            <h2 class="mb-3">Themed Dinners</h2>
+            <div id="dinnerCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/events/dinner1.jpg" class="d-block w-100" alt="Themed Dinner 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/events/dinner2.jpg" class="d-block w-100" alt="Themed Dinner 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/events/dinner3.jpg" class="d-block w-100" alt="Themed Dinner 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#dinnerCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#dinnerCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <p>Experience global flavors during our themed nights! Whether it's a Mediterranean feast or a spicy Indian
+                curry night, there's always something new to try at GreenBite.</p>
+        </section>
+
+        <!-- Event Category: Private Parties -->
+        <section class="mb-5">
+            <h2 class="mb-3">Private Parties</h2>
+            <div id="partyCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/events/party1.jpg" class="d-block w-100" alt="Private Party 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/events/party2.jpg" class="d-block w-100" alt="Private Party 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/events/party3.jpg" class="d-block w-100" alt="Private Party 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#partyCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#partyCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <p>Looking to host a birthday, anniversary, or corporate event? Our private dining space is perfect for
+                intimate and fun gatherings with full catering and entertainment options.</p>
+        </section>
+    </main>
+
+    <footer class="footer mt-5">
+        <p>&copy; 2025 Serve and Dine. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

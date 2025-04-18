@@ -1,0 +1,89 @@
+body {
+    background-color: #bfd4b6;
+    color: #342f31;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .navbar, .dropdown-menu {
+    background-color: #5271ff !important;
+  }
+  
+  .navbar a,
+  .navbar-brand {
+    color: white !important;
+  }
+  
+  .nav-link:hover, .dropdown-item:hover {
+    background-color: #5271ff;
+    color: #d1e739 !important;
+  }
+  
+ .footer {
+    background-color: #342f31;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* Make sure body takes full height and layout is flexible */
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1; /* Allows the main content to expand and take available space */
+  }
+  
+  .footer {
+    background-color: #342f31; /* Dark background color for the footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu-item h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-item p {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+.menu-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.9rem;
+    border-bottom: 1px dotted #999;
+    z-index: 0;
+}
+
+.menu-item .price {
+    color: #bbb lack;;
+    padding-left: 0.5rem;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
