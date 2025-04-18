@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
   
 document.getElementById("foodMenu").onclick = function () {
-  location.href = "/food.html";
+  location.href = "food.html";
 };
 
 fetch("/navbar.html")
